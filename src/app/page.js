@@ -59,7 +59,7 @@ export default function Home() {
                     type="text"
                     id="task"
                     className="block w-full p-4  text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                    placeholder="Hazme un plan de vaciones para el puente"
+                    placeholder="Necesito que me grabes y transcribas un webinario mañana a las 11:00, este es el link: ..."
                     value={task}
                     onChange={(e) => setTask(e.target.value)}
                     required />
