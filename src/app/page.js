@@ -95,7 +95,7 @@ export default function Home() {
         </div>
 
         <Link
-            className="flex flex-col items-center dark:text-blue-200 text-blue-950 pb-8"
+            className="flex flex-col items-center dark:text-blue-200 text-blue-950 pb-8 pt-12"
             href="https://api.whatsapp.com/send?phone=34613071167&text=Hola%20delgate!">
             <BiLogoWhatsapp size={48}/>
             WhatsApp
