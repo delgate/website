@@ -81,16 +81,21 @@ export default function Home() {
 
 
 
-        <p className="font-semibold text-xl dark:text-blue-200 text-blue-950">
+        <p className="font-semibold text-xl dark:text-blue-200 text-blue-950 pt-12">
             Ejemplos reales
         </p>
-        <div className="w-full max-w-sm dark:bg-blue-200 bg-white rounded-xl py-2 px-4 my-8">
-            <Message message="El 14 voy a Segovia, me buscas cosas para hacer allí y me reservas algo?" isClient />
-            <Message message="Received 😃" />
+        <div className="w-full max-w-sm dark:bg-blue-200 bg-slate-100 rounded-xl py-2 px-4 my-8">
+            <Message message="Hola! 👋" isClient />
+            <Message message="Necesito una nevera de menos de 183 cm de alto" isClient />
+            <Message message="Sin problemas, aquí tienes varias opciones: ..." />
+        </div>
+        <div className="w-full max-w-sm dark:bg-blue-200 bg-slate-100 rounded-xl py-2 px-4 my-8">
+            <Message message="¿Puedes pasarme a Excel todas estas facturas?" isClient />
+            <Message message="Por supuesto, aquí tienes el documento: ..." />
         </div>
 
         <Link
-            className="flex flex-col items-center dark:text-blue-200 text-blue-950"
+            className="flex flex-col items-center dark:text-blue-200 text-blue-950 pb-8"
             href="https://api.whatsapp.com/send?phone=34613071167&text=Hola%20delgate!">
             <BiLogoWhatsapp size={48}/>
             WhatsApp

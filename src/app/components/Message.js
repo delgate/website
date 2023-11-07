@@ -9,7 +9,7 @@ export default function Message({ message, isClient }) {
         `}>
             <div className={`
                 p-4 rounded-xl max-w-xs min-w-fit drop-shadow-md
-                ${isClient ? "bg-green-100" : "bg-gray-100"}
+                ${isClient ? "bg-green-100" : "bg-white"}
             `}>
                 {message}
             </div>
