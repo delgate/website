@@ -7,3 +7,4 @@ services:
     image: ghcr.io/delgate/website:main
     ports:
       - "${INTERNAL_PORT}:3000"
+    restart: always
