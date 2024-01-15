@@ -12,7 +12,6 @@ import ReactPlayer from 'react-player'
 
 export default function Home() {
 
-
     const systemPrefersDark = useMediaQuery(
         {
           query: "(prefers-color-scheme: dark)"
@@ -39,7 +38,7 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-start pt-12 lg:p-24">
         <Image
-            src={delgateLogo}
+            src={`${process.env.NEXT_PUBLIC_BASE_PATH}${delgateLogo}`}
             className="my-12"
             alt="Delegate logo"
             height={200}

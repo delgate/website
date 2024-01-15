@@ -5,6 +5,8 @@ version: '3'
 services:
   website:
     image: ghcr.io/delgate/website:main
+    environment:
+      NEXT_PUBLIC_BASE_PATH: /chat
     ports:
       - "${INTERNAL_PORT}:3000"
     restart: always
